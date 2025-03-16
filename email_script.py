@@ -13,8 +13,8 @@ EMAIL_PASSWORD = os.getenv('EMAIL_PASS')  # Set in system environment
 # Email content
 msg = EmailMessage()
 msg['Subject'] = 'Automated Email from Python'
-msg['From'] = 'ashik730@gmail.com'
-msg['To'] = 'ms2989@njit.edu'  # Replace with actual recipient
+msg['From'] = ''
+msg['To'] = ''  # Replace with actual recipient
 msg.set_content('Hello, this is an automated email sent using Python!')
 
 # Attach a file (Optional)
